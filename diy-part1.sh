@@ -9,6 +9,7 @@
 #=============================================================
 
 # Add a feed source
+sed -i -E "s/coolsnowwolf/openwrt/" feeds.conf.default
 echo 'src-git passwallpackages https://github.com/xiaorouji/openwrt-passwall.git;packages' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall;luci' >>feeds.conf.default
 
