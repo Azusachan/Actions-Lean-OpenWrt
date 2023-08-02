@@ -8,4 +8,5 @@
 # Blog: https://p3terx.com
 #============================================================
 
-# Modify default IP
+git clone -b master https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+git clone -b master https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
