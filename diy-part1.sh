@@ -9,7 +9,11 @@
 #=============================================================
 
 # Add a feed source
-echo "src-git passwallpackages https://github.com/kenzok8/small-package.git" >> "feeds.conf.default"
+#echo "src-git passwallpackages https://github.com/kenzok8/small-package.git" >> "feeds.conf.default"
+echo "src-git openwrt-passwall https://github.com/xiaorouji/openwrt-passwall.git" >> "feeds.conf.default"
+echo "src-git openwrt-passwall2 https://github.com/xiaorouji/openwrt-passwall2.git" >> "feeds.conf.default"
+echo "src-git openwrt-passwall-packages https://github.com/xiaorouji/openwrt-passwall-packages.git" >> "feeds.conf.default"
+
 
 # Lienol/openwrt-package
 # sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' feeds.conf.default
