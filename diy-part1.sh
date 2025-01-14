@@ -9,8 +9,6 @@
 #=============================================================
 
 # Add a feed source
-echo "src-git argon https://github.com/jerrykuku/luci-theme-argon.git" >> "feeds.conf.default"
-echo "src-git argon_config https://github.com/jerrykuku/luci-app-argon-config.git" >> "feeds.conf.default"
 echo "src-git openwrt_passwall https://github.com/xiaorouji/openwrt-passwall.git" >> "feeds.conf.default"
 echo "src-git openwrt_passwall2 https://github.com/xiaorouji/openwrt-passwall2.git" >> "feeds.conf.default"
 echo "src-git openwrt_passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git" >> "feeds.conf.default"
